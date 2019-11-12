@@ -5,6 +5,7 @@
  Template:     twentysixteen
 */
 
-body  {
-color: red;
+body{
+    color: red;
+    background:firebrick;
 }
