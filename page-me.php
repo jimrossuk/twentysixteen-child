@@ -45,6 +45,22 @@ get_header(); ?>
     <h2> <?php the_field( 'phone_number' )?> </h2>
 <?php } ?>
 	</div>
+	<div>
+	<?php if ( get_field( 'email' ) ){  ?>
+    <h2> <?php the_field( 'email' )?> </h2>
+<?php } ?>
+	</div>
+	<div>
+	<?php if ( get_field( 'logo' ) ){  ?>
+    <h2> <?php the_field( 'logo' )?> </h2>
+<?php } ?>
+	</div>
+	<div>
+	<?php if ( get_field( 'address' ) ){  ?>
+    <h2> <?php the_field( 'address' )?> </h2>
+<?php } ?>
+	</div>
+	
 
 </div><!-- .content-area -->
 
