@@ -43,5 +43,5 @@
 			'</span></footer><!-- .entry-footer -->'
 		);
 		?>
-<p>This is a test of text for this assignment Nov 12</p>
+
 </article><!-- #post-<?php the_ID(); ?> -->

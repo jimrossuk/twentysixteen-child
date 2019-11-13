@@ -5,7 +5,10 @@
  Template:     twentysixteen
 */
 
-body{
-    color: red;
-    background:firebrick;
+.wp-block-quote, .post-32, .wp-block- { 
+    color: red;  
+}
+/* The red is attached to all text from page name to the photo. */
+h1, .entry-title{
+    color: black;
 }

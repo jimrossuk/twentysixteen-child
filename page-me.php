@@ -11,10 +11,11 @@
  * @since Twenty Sixteen 1.0
  */
 
-// get_header(); ?>
+get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
+		<p>Is this the way it should be?</p>
 		<?php
 		// Start the loop.
 		while ( have_posts() ) :
