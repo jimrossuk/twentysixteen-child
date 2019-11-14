@@ -12,3 +12,9 @@
 h1, .entry-title{
     color: black;
 }
+
+.case{
+
+    color: firebrick;
+    text-align: center;
+}

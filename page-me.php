@@ -41,23 +41,34 @@ get_header(); ?>
 
 	<!-- This the right place??? -->
 	<div>
-	<?php if ( get_field( 'phone_number' ) ){  ?>
-    <h2> <?php the_field( 'phone_number' )?> </h2>
+	<?php if ( get_field( 'logo' ) ){  ?>
+	<img src=" <?php the_field('logo' )?> " alt="">
+      
 <?php } ?>
 	</div>
+
+
+	<div>
+	<?php if ( get_field( 'phone_number' ) ){  ?>
+    <h2 style = color:blue;> <?php the_field( 'phone_number' )?> </h2>
+<?php } ?>
+	</div>
+
 	<div>
 	<?php if ( get_field( 'email' ) ){  ?>
-    <h2> <?php the_field( 'email' )?> </h2>
+    <h3> <?php the_field( 'email' )?> </h3>
 <?php } ?>
 	</div>
+
 	<div>
-	<?php if ( get_field( 'logo' ) ){  ?>
-    <h2> <?php the_field( 'logo' )?> </h2>
+	<?php if ( get_field( 'biography' ) ){  ?>
+    <p> <?php the_field( 'biography' )?> </p>
 <?php } ?>
 	</div>
+
 	<div>
 	<?php if ( get_field( 'address' ) ){  ?>
-    <h2> <?php the_field( 'address' )?> </h2>
+    <p> <?php the_field( 'address' )?> </p>
 <?php } ?>
 	</div>
 	
